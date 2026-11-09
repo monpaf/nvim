@@ -6,6 +6,12 @@ local options = {
     -- html = { "prettier" },
   },
 
+  formatters = {
+    prettier = {
+      prepend_args = { "--trailing-comma", "none" },
+    },
+  },
+
   -- format_on_save = {
   --   -- These options will be passed to conform.format()
   --   timeout_ms = 500,
