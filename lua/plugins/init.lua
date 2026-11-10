@@ -32,6 +32,7 @@ return {
         auto_trigger = true,
         keymap = {
           accept = "<M-l>",
+          accept_word = "<M-w>",
           next = "<M-]>",
           prev = "<M-[>",
           dismiss = "<C-]>",
